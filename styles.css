@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url('toby-hall-vvuVkty8u84-unsplash.jpg');
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the image */
+}
+
+header {
+    height: 300px; /* Adjust height as needed */
+}
+
+footer {
+    height: 150px; /* Adjust height as needed */
+    padding: 20px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .dropdown {
+    display: inline-block;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+nav .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav .dropdown-content a:hover {
+    background-color: #575757;
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.intro {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 24px;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+}
